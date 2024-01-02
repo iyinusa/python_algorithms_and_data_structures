@@ -1,7 +1,7 @@
 '''
 A prison can be represented as a list of cells. Each cell contains exactly one prisoner. A 1 represents an unlocked cell and a 0 represents a locked cell. 
 
-`[1, 1, 0, 0, 0, 1, 0]`
+[1, 1, 0, 0, 0, 1, 0]
 
 Starting inside the leftmost cell, you are tasked with seeing how many prisoners you can set free, with a catch. Each time you free a prisoner, the locked cells become unlocked, and the unlocked cells become locked again. You can only move from left to right and not go back. 
 
@@ -33,10 +33,8 @@ freed_prisoners([0, 0, 0]) ➞ 0
 freed_prisoners([0, 1, 1, 1]) ➞ 1
 
 NOTE:
-
     You must free a prisoner in order for the locks to switch. So in the second example where the input is [1, 1, 1] after you release the first prisoner, the locks change to [0, 0, 0]. Since all cells are locked, you can release no more prisoners.
     You always start within the leftmost element in the list (the first prison cell). If all the prison cells to your right are zeroes, you cannot free any more prisoners.
-
 '''
 
 # Break prisoners out of a unique prison using lists, logic, and loops
