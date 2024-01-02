@@ -4,3 +4,4 @@ This collection has varieties of algorithms and data structures problems and sol
 # Problems & Solutions
 | Problems | Solutions |
 | -------- | --------- |
+| Managing multiple items | |
